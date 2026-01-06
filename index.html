@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BTS SIO - Riou Dylan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio <span>BTS SIO</span></div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#ppe" class="nav-link">Projets PPE</a></li>
+                <li><a href="#alternance" class="nav-link">Alternance</a></li>
+                <li><a href="#veille" class="nav-link">Veille Techno</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Bonjour, je suis <span class="gradient-text">Riou Dylan</span></h1>
+                <h2 class="hero-subtitle">Étudiant BTS SIO - Option SISR</h2>
+                <p class="hero-description">
+                    Passionné par l'infrastructure réseau et la cybersécurité, je suis actuellement en formation BTS SIO 
+                    avec une spécialisation en Solutions d'Infrastructure, Systèmes et Réseaux. 
+                    Mon objectif : devenir expert en administration systèmes et réseaux.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>2+</h3>
+                        <p>Années d'études</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>6+</h3>
+                        <p>Projets réalisés</p>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Me contacter</a>
+                    <a href="#ppe" class="btn btn-secondary">Voir mes projets</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                    <img src="img/moi.png">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- BTS & Compétences Section -->
+    <section id="competences" class="section competences-section">
+        <div class="container">
+            <h2 class="section-title">BTS SIO & Compétences</h2>
+            <p class="section-subtitle">Le BTS Services Informatiques aux Organisations propose deux spécialités complémentaires</p>
+            
+            <div class="bts-options">
+                <div class="bts-card">
+                    <div class="bts-icon"><i class="fas fa-code"></i></div>
+                    <h3>SLAM</h3>
+                    <p>Solutions Logicielles et Applications Métiers</p>
+                </div>
+                <div class="bts-card active">
+                    <div class="bts-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>SISR</h3>
+                    <p>Solutions d'Infrastructure, Systèmes et Réseaux</p>
+                </div>
+            </div>
+
+            <h3 class="competences-title">Les 6 Compétences E5</h3>
+            <div class="competences-grid">
+                <div class="competence-card">
+                    <div class="competence-number">C1</div>
+                    <h4>Gérer le patrimoine informatique</h4>
+                    <p>Recenser et identifier les ressources numériques, exploiter des référentiels et optimiser les ressources.</p>
+                    <div class="competence-example">
+                        <strong>Exemple :</strong> Mise en place d'un inventaire GLPI pour le suivi du matériel informatique
+                    </div>
+                    <div class="image-placeholder small">
+                        <img src="img/GLPI.jpg">
+                    </div>
+                </div>
+
+                <div class="competence-card">
+                    <div class="competence-number">C2</div>
+                    <h4>Répondre aux incidents et aux demandes</h4>
+                    <p>Collecter, suivre et orienter des demandes, traiter des incidents et des demandes d'assistance.</p>
+                    <div class="competence-example">
+                        <strong>Exemple :</strong> Gestion des tickets d'incidents via clarilog
+                    </div>
+                    <div class="image-placeholder small">
+                        <img src="img/clarilog.jpg">
+                    </div>
+                </div>
+
+                <div class="competence-card">
+                    <div class="competence-number">C3</div>
+                    <h4>Développer la présence en ligne</h4>
+                    <p>Participer à la valorisation de l'image de l'organisation sur les médias numériques.</p>
+                    <div class="competence-example">
+                        <strong>Exemple :</strong> Création et maintenance d'un site web
+                    </div>
+                    <div class="image-placeholder small">
+                        <img src="img/boucherie.png">
+                    </div>
+                </div>
+
+                <div class="competence-card">
+                    <div class="competence-number">C4</div>
+                    <h4>Travailler en mode projet</h4>
+                    <p>Analyser les objectifs et les modalités d'organisation d'un projet, planifier les activités.</p>
+                    <div class="competence-example">
+                        <strong>Exemple :</strong> Gestion de projet avec méthodologie Agile et diagrammes de Gantt
+                    </div>
+                    <div class="image-placeholder small">
+                        <img src="img/gantt.png">
+                    </div>
+                </div>
+
+                <div class="competence-card">
+                    <div class="competence-number">C5</div>
+                    <h4>Mettre à disposition des utilisateurs un service informatique</h4>
+                    <p>Réaliser les tests d'intégration et d'acceptation d'un service, déployer un service.</p>
+                    <div class="competence-example">
+                        <strong>Exemple :</strong> Déploiement d'un serveur DHCP/DNS sous Windows Server
+                    </div>
+                    <div class="image-placeholder small">
+                        <img src="img/DNS.png">
+                    </div>
+                </div>
+
+                <div class="competence-card">
+                    <div class="competence-number">C6</div>
+                    <h4>Organiser son développement professionnel</h4>
+                    <p>Mettre en place son environnement d'apprentissage personnel, maintenir sa culture informatique.</p>
+                    <div class="competence-example">
+                        <strong>Exemple :</strong> Avancement de l'IA et participation à des conférences IT
+                    </div>
+                    <div class="image-placeholder small">
+                        <img src="img/ia.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets PPE Section -->
+    <section id="ppe" class="section ppe-section">
+        <div class="container">
+            <h2 class="section-title">Projets Réalisés (PPE)</h2>
+            <p class="section-subtitle">Découvrez les projets que j'ai développés durant ma formation</p>
+            
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/boucherie 2.0.png">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">google site</span>
+                            <span class="tag">rapport audit</span>
+                        </div>
+                        <h3>Réalisation d'un site internet</h3>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-info-circle"></i> Contexte</h4>
+                            <p>Mise en place d'un site internet pour une boucherie-charcuterie.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-bullseye"></i> Objectifs</h4>
+                            <p>Référencer tous les produits de la boucherie-charcuterie.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-tools"></i> Travail réalisé</h4>
+                            <ul>
+                                <li>Démarche avec le clients</li>
+                                <li>Création du site internet</li>
+                                <li>Hébérgement du site</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-laptop-code"></i> Technologies</h4>
+                            <p>google site</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-check-circle"></i> Compétences mobilisées</h4>
+                            <p>C3, C4</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-trophy"></i> Résultats</h4>
+                            <p>Le site n'a pas été mis en ligne mais nous avons pus démarcher avec le client et lui crée un site qui répondrait a ses besoins.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-lightbulb"></i> Bilan personnel</h4>
+                            <p>Ce projet m'a permis de comprendre qu'il faut bien être à l'écoute du client pour lui fournir ce qui lui faut.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/pfsense.png">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Sécurité</span>
+                            <span class="tag">Firewall</span>
+                            <span class="tag">VPN</span>
+                        </div>
+                        <h3>Sécurisation réseau avec pfSense</h3>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-info-circle"></i> Contexte</h4>
+                            <p>Besoin de sécuriser le réseau et permettre l'accès distant sécurisé aux ressources internes.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-bullseye"></i> Objectifs</h4>
+                            <p>Déployer un firewall pfSense avec règles de filtrage, VPN pour télétravail et système de détection d'intrusion.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-tools"></i> Travail réalisé</h4>
+                            <ul>
+                                <li>Installation de pfSense sur serveur dédié</li>
+                                <li>Configuration des règles de pare-feu par zones</li>
+                                <li>Configuration Snort pour l'IDS</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-laptop-code"></i> Technologies</h4>
+                            <p>pfSense, OpenVPN, Snort, VLAN, IPsec</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-check-circle"></i> Compétences mobilisées</h4>
+                            <p>C2, C5</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-trophy"></i> Résultats</h4>
+                            <p>Le réseau de l'infra est totalement sécurisé.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-lightbulb"></i> Bilan personnel</h4>
+                            <p>Projet enrichissant sur la cybersécurité. Difficulté initiale sur la configuration des certificats VPN.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <img src="img/proxmox.png">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Virtualisation</span>
+                            <span class="tag">Proxmox</span>
+                            <span class="tag">Backup</span>
+                        </div>
+                        <h3>Infrastructure virtualisée avec Proxmox</h3>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-info-circle"></i> Contexte</h4>
+                            <p>Optimisation des ressources serveur par la virtualisation et mise en place d'une stratégie de sauvegarde automatisée.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-bullseye"></i> Objectifs</h4>
+                            <p>Déployer une infrastructure virtualisée Proxmox hébergeant plusieurs serveurs (Web, BDD, AD) avec plan de sauvegarde.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-tools"></i> Travail réalisé</h4>
+                            <ul>
+                                <li>Installation cluster Proxmox VE</li>
+                                <li>Création de machines virtuelles Linux et Windows</li>
+                                <li>Configuration du stockage et réseau virtuel</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-laptop-code"></i> Technologies</h4>
+                            <p>Proxmox VE</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-check-circle"></i> Compétences mobilisées</h4>
+                            <p>C1, C4, C5</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-trophy"></i> Résultats</h4>
+                            <p>4 VMs opérationnelles sur notre infra.</p>
+                        </div>
+                        
+                        <div class="project-detail">
+                            <h4><i class="fas fa-lightbulb"></i> Bilan personnel</h4>
+                            <p>maîtrise de la virtualisation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternance Section -->
+    <section id="alternance" class="section alternance-section">
+        <div class="container">
+            <h2 class="section-title">Missions en Alternance</h2>
+            <p class="section-subtitle">Mon expérience professionnelle au sein de [Nom de l'entreprise]</p>
+            
+            <div class="company-info">
+                <h3>Présentation de l'entreprise</h3>
+                <div class="company-card">
+                    <div class="image-placeholder">
+                        <img src="img/logo entreprise.png">
+                    </div>
+                    <div class="company-details">
+                        <p><strong>Nom :</strong> Amplitude surgical</p>
+                        <p><strong>Taille :</strong> 370 employés</p>
+                        <p><strong>Contexte :</strong> Entreprise spécialisée dans les prothèse genou, hanche avec un parc informatique de 400 postes à gérer et une infrastructure réseau complexe.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="missions-timeline">
+                <!-- Mission 1 -->
+                <div class="mission-card">
+                    <div class="mission-header">
+                        <div class="mission-number">01</div>
+                        <h3>Création d'un serveur MDT</h3>
+                        <span class="mission-date">Fevrier - Juillet 2025</span>
+                    </div>
+                    <div class="mission-content">
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-info-circle"></i> Contexte</h4>
+                            <p>L'entreprise utilisait un serveur MDT dans le serveur AD, j'ai du le refaire de 0 sur un nouveau serveur. Sans aide de l'ancien serveur MDT.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-bullseye"></i> Objectifs</h4>
+                            <p>Avoir un service par serveurs.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-tools"></i> Travail réalisé</h4>
+                            <ul>
+                                <li>création serveur sur Vsphere avec mon tuteur</li>
+                                <li>Installation et configuration de l'outil MDT</li>
+                                <li>Test sur différents PC</li>
+                                <li>Passage totale sur le nouveau serveur MDT</li>
+                                <li>documentation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-laptop-code"></i> Technologies</h4>
+                            <p>Windows Server, deployement toolkit</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-check-circle"></i> Compétences mobilisées</h4>
+                            <p>C1, C4, C5</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-trophy"></i> Résultats</h4>
+                            <p>Migration de serveur réussi, avec quelques fonctionnalités supplémentaires au précédent.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-lightbulb"></i> Bilan personnel</h4>
+                            <p>Projet majeur renforçant mes compétences en informatique. J'ai pu comprendre le fonctionnement du serveur MDT. Difficulté avec la configuration des bootstrap et custom.ini.</p>
+                        </div>
+                        
+                        <div class="mission-images">
+                            <div class="image-placeholder">
+                                <img src="img/MDT.png">
+                            </div>
+                            <div class="image-placeholder">
+                                <img src="img/MDT-2.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 2 -->
+                <div class="mission-card">
+                    <div class="mission-header">
+                        <div class="mission-number">02</div>
+                        <h3>Migration de pc vers windows 11</h3>
+                        <span class="mission-date">Aout - Decembre 2025</span>
+                    </div>
+                    <div class="mission-content">
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-info-circle"></i> Contexte</h4>
+                            <p>80 PC non compatible windows 11 on du être remplacer ou mis à jour manuellement.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-bullseye"></i> Objectifs</h4>
+                            <p>Tous les postes de l'entrprise doivent être sous windows 11.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-tools"></i> Travail réalisé</h4>
+                            <ul>
+                                <li>Trouver les pc sous windows 10 et crée un fichier excel en les répértoriant</li>
+                                <li>Décider si tels ou tels pc doivent être remplacer ou mis à jour</li>
+                                <li>contacter les utilisateurs pour trouver un créneau de migration</li>
+                                <li>Modification du pc de l'utilisateur</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-laptop-code"></i> Technologies</h4>
+                            <p>flyby11, clé USB pour transfert de fichiers locaux, srvdeployement pour réinstallation de logiciels</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-check-circle"></i> Compétences mobilisées</h4>
+                            <p>C1, C4, C5</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-trophy"></i> Résultats</h4>
+                            <p>Tous les PC ont migrer dans le temp imparti.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-lightbulb"></i> Bilan personnel</h4>
+                            <p>Il faut bien s'organiser pour changer un pc, il faut que logiciels et dossier soit dupliquer.</p>
+                        </div>
+                        
+                        <div class="mission-images">
+                            <div class="image-placeholder">
+                                <img src="img/flyby.png">
+                            </div>
+                            <div class="image-placeholder">
+                                <img src="img/dell_.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 3 -->
+                <div class="mission-card">
+                    <div class="mission-header">
+                        <div class="mission-number">03</div>
+                        <h3>Déploiement GPO Bitwarden</h3>
+                        <span class="mission-date">Janvier - Aout 2026</span>
+                    </div>
+                    <div class="mission-content">
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-info-circle"></i> Contexte</h4>
+                            <p>Sécurisation des mots de passes utilisateurs par gestionnaire de mots de passe hebergé par l'entreprise.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-bullseye"></i> Objectifs</h4>
+                            <p>Mise en place d'une extension Bitwarden sur edge.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-tools"></i> Travail réalisé</h4>
+                            <ul>
+                                <li>Création de la GPO</li>
+                                <li>Test de la mise en plmace de l'xtension par GPO</li>
+                                <li>Application a tous les utilisateurs</li>
+                                <li>Formation utilisateurs à ce gestionnaire de mot de passe</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-laptop-code"></i> Technologies</h4>
+                            <p>GPO, Extension</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-check-circle"></i> Compétences mobilisées</h4>
+                            <p>C1, C2, C5</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-trophy"></i> Résultats</h4>
+                            <p>Projet non terminé.</p>
+                        </div>
+                        
+                        <div class="mission-detail">
+                            <h4><i class="fas fa-lightbulb"></i> Bilan personnel</h4>
+                            <p>Projet non terminé.</p>
+                        </div>
+                        
+                        <div class="mission-images">
+                            <div class="image-placeholder">
+                                <img src="img/bitwarden.png">
+                            </div>
+                            <div class="image-placeholder">
+                                <img src="img/GPO.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Veille Technologique Section -->
+    <section id="veille" class="section veille-section">
+        <div class="container">
+            <h2 class="section-title">Veille Technologique</h2>
+            <p class="section-subtitle">Thématique : La 5G et son évolution</p>
+            
+            <div class="veille-intro">
+                <div class="veille-header">
+                    <div class="veille-icon"><i class="fas fa-signal"></i></div>
+                    <h3>Qu'est-ce que la 5G ?</h3>
+                </div>
+                <div class="veille-content">
+                    <p>
+                        La 5G (cinquième génération) est la nouvelle norme de technologie cellulaire conçue pour révolutionner 
+                        les communications mobiles. Avec un débit théorique pouvant atteindre 20 Gbit/s (contre 1 Gbit/s pour la 4G), 
+                        elle offre des performances jusqu'à 20 fois supérieures à son prédécesseur.
+                    </p>
+                    <p>
+                        Au-delà de la vitesse, la 5G se distingue par trois caractéristiques majeures : une latence ultra-faible 
+                        (moins de 1 ms), une capacité de connexion massive (jusqu'à 1 million d'appareils par km²), et une 
+                        efficacité énergétique améliorée. Ces avancées permettent de nouveaux usages comme les véhicules autonomes, 
+                        la chirurgie à distance, l'industrie 4.0, ou encore les villes intelligentes.
+                    </p>
+                    <div class="veille-stats">
+                        <div class="stat-box">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <h4>20 Gbit/s</h4>
+                            <p>Débit maximal</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-clock"></i>
+                            <h4>&lt; 1 ms</h4>
+                            <p>Latence</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-network-wired"></i>
+                            <h4>1M/km²</h4>
+                            <p>Appareils connectés</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="actualites-title">Actualités et Suivi de la 5G</h3>
+            <div class="actualites-grid">
+                <!-- Actualité 1 -->
+                <div class="actualite-card">
+                    <div class="actualite-header">
+                        <span class="actualite-date"><i class="fas fa-calendar"></i> Septembre 2025</span>
+                        <span class="actualite-source">comparevite</span>
+                    </div>
+                    <h4>Meilleur réseau 5G 2025 : la bataille Orange vs Bouygues s'intensifie</h4>
+                    <p>
+                        Une étude comparative révèle que Bouygues Telecom et Orange se partagent la première place pour le meilleur réseau mobile en France.
+                    </p>
+                    <a href="https://comparevite.com/meilleur-reseau-5g-france-2025/" target="_blank" class="actualite-link">
+                        <i class="https://comparevite.com/meilleur-reseau-5g-france-2025/"></i> Lire l'article
+                    </a>
+                </div>
+
+                <!-- Actualité 2 -->
+                <div class="actualite-card">
+                    <div class="actualite-header">
+                        <span class="actualite-date"><i class="fas fa-calendar"></i> Octobre 2025</span>
+                        <span class="actualite-source">itforbusiness</span>
+                    </div>
+                    <h4>5 ans après son lancement, la 5G entre dans une nouvelle ère</h4>
+                    <p>
+                        La technologie s'est imposée progressivement avec plus de 51 000 sites autorisés.
+                        la "vraie 5G" (5G Stand Alone) devient un axe de développement majeur pour tous les opérateurs.
+                    </p>
+                    <a href="https://www.itforbusiness.fr/5-ans-plus-tard-la-5g-ne-fait-plus-rever-et-cest-peut-etre-une-bonne-nouvelle-95587" target="_blank" class="actualite-link">
+                        <i class="https://www.itforbusiness.fr/5-ans-plus-tard-la-5g-ne-fait-plus-rever-et-cest-peut-etre-une-bonne-nouvelle-95587"></i> Lire l'article
+                    </a>
+                </div>
+
+                <!-- Actualité 3 -->
+                <div class="actualite-card">
+                    <div class="actualite-header">
+                        <span class="actualite-date"><i class="fas fa-calendar"></i> Novembre 2025</span>
+                        <span class="actualite-source">edcom</span>
+                    </div>
+                    <h4>Plus de 52 000 sites 5G en France : Free leader en antennes, Orange en performance</h4>
+                    <p>
+                        Free Mobile conserve le plus grand nombre d'antennes mais utilise principalement la bande 700 MHz (moins rapide). 
+                        Orange domine sur la bande 3,5 GHz offrant les meilleurs débits
+                    </p>
+                    <a href="https://www.edcom.fr/actualites/5g-free-a-le-plus-d-antennes-mais-orange-garde-l-avantage-sur-les-debits-observatoire-anfr-novembre-2025#:~:text=Smartphones-,5G%20%3A%20Free%20a%20le%20plus%20d'antennes%2C%20mais%20Orange,52%20000%20sites%205G%20autoris%C3%A9s." target="_blank" class="actualite-link">
+                        <i class="https://www.edcom.fr/actualites/5g-free-a-le-plus-d-antennes-mais-orange-garde-l-avantage-sur-les-debits-observatoire-anfr-novembre-2025#:~:text=Smartphones-,5G%20%3A%20Free%20a%20le%20plus%20d'antennes%2C%20mais%20Orange,52%20000%20sites%205G%20autoris%C3%A9s."></i> Lire l'article
+                    </a>
+                </div>
+
+                <!-- Actualité 4 -->
+                <div class="actualite-card">
+                    <div class="actualite-header">
+                        <span class="actualite-date"><i class="fas fa-calendar"></i> Décembre 2025</span>
+                        <span class="actualite-source">ARCEP</span>
+                    </div>
+                    <h4>Observatoire ARCEP : la 5G poursuit son expansion vers l'objectif 2026</h4>
+                    <p>
+                        Les opérateurs maintiennent leur rythme pour atteindre l'objectif de couverture des deux tiers de la population en 2025, avec un focus particulier sur les zones peu denses et les territoires industriels.
+                    </p>
+                    <a href="https://www.arcep.fr/cartes-et-donnees/nos-cartes/deploiement-5g/observatoire-du-deploiement-5g-decembre-2025.html" target="_blank" class="actualite-link">
+                        <i class="https://www.arcep.fr/cartes-et-donnees/nos-cartes/deploiement-5g/observatoire-du-deploiement-5g-decembre-2025.html"></i> Lire l'article
+                    </a>
+                </div>
+
+                <!-- Actualité 5 -->
+                <div class="actualite-card">
+                    <div class="actualite-header">
+                        <span class="actualite-date"><i class="fas fa-calendar"></i> Janvier 2026</span>
+                        <span class="actualite-source">N/A</span>
+                    </div>
+                    <h4>N/A</h4>
+                    <p>
+                        A Compléter
+                    </p>
+                    <a href="https://www.itforbusiness.fr/5-ans-plus-tard-la-5g-ne-fait-plus-rever-et-cest-peut-etre-une-bonne-nouvelle-95587" target="_blank" class="actualite-link">
+                        <i class="fas fa-external-link-alt"></i> Lire l'article
+                    </a>
+                </div>
+
+                <!-- Actualité 6 -->
+                <div class="actualite-card">
+                    <div class="actualite-header">
+                        <span class="actualite-date"><i class="fas fa-calendar"></i> Fevrier 2026</span>
+                        <span class="actualite-source">A Compléter</span>
+                    </div>
+                    <h4>A Compléter</h4>
+                    <p>
+                        A Compléter
+                    </p>
+                    <a href="https://www.itforbusiness.fr/5-ans-plus-tard-la-5g-ne-fait-plus-rever-et-cest-peut-etre-une-bonne-nouvelle-95587" target="_blank" class="actualite-link">
+                        <i class="fas fa-external-link-alt"></i> Lire l'article
+                    </a>
+                </div>
+
+                <!-- Actualité 7 -->
+                <div class="actualite-card">
+                    <div class="actualite-header">
+                        <span class="actualite-date"><i class="fas fa-calendar"></i> Mars 2026</span>
+                        <span class="actualite-source">A Compléter</span>
+                    </div>
+                    <h4>A Compléter</h4>
+                    <p>
+                        A Compléter
+                    </p>
+                    <a href="https://www.itforbusiness.fr/5-ans-plus-tard-la-5g-ne-fait-plus-rever-et-cest-peut-etre-une-bonne-nouvelle-95587" target="_blank" class="actualite-link">
+                        <i class="fas fa-external-link-alt"></i> Lire l'article
+                    </a>
+                </div>
+
+                <!-- Actualité 8 -->
+                <div class="actualite-card">
+                    <div class="actualite-header">
+                        <span class="actualite-date"><i class="fas fa-calendar"></i> Avril 2026</span>
+                        <span class="actualite-source">A Compléter</span>
+                    </div>
+                    <h4>A Compléter</h4>
+                    <p>
+                        A Compléter
+                    </p>
+                    <a href="https://www.itforbusiness.fr/5-ans-plus-tard-la-5g-ne-fait-plus-rever-et-cest-peut-etre-une-bonne-nouvelle-95587" target="_blank" class="actualite-link">
+                        <i class="fas fa-external-link-alt"></i> Lire l'article
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <p class="section-subtitle">N'hésitez pas à me contacter pour toute opportunité ou question</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>dylanriou07500@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">
+                            <h4>Téléphone</h4>
+                            <p> 07 69 20 04 51</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>Localisation</h4>
+                            <p>Cheminas, Auvergne-Rhône-Alpes</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cv-download">
+                        <a href="CV/CV-Riou-Dylan.pdf" class="btn btn-primary btn-cv" target="_blank">
+                            <i class="fas fa-file-pdf"></i> Consulter mon CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio BTS SIO - Riou Dylan</h3>
+                    <p>Étudiant passionné par l'informatique et l'infrastructure réseau</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#ppe">Projets PPE</a></li>
+                        <li><a href="#alternance">Alternance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> dylanriou07500@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> 07 69 20 04 51</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Cheminas, France</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio BTS SIO - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
