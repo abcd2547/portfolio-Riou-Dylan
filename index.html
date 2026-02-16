@@ -236,7 +236,7 @@
                 <div class="project-card">
                     <div class="project-image">
                         <div class="image-placeholder">
-                            <img src="img/pfsense.png">
+                            <img src="img/zabbix.png">
                         </div>
                     </div>
                     <div class="project-content">
@@ -245,45 +245,46 @@
                             <span class="tag">Firewall</span>
                             <span class="tag">VPN</span>
                         </div>
-                        <h3>Sécurisation réseau avec pfSense</h3>
+                        <h3>Supervision d'infrastructure avec Zabbix</h3>
                         
                         <div class="project-detail">
                             <h4><i class="fas fa-info-circle"></i> Contexte</h4>
-                            <p>Besoin de sécuriser le réseau et permettre l'accès distant sécurisé aux ressources internes.</p>
+                            <p>Besoin de monitorer l'état de santé du parc informatique et des serveurs critiques pour anticiper les pannes.</p>
                         </div>
                         
                         <div class="project-detail">
                             <h4><i class="fas fa-bullseye"></i> Objectifs</h4>
-                            <p>Déployer un firewall pfSense avec règles de filtrage, VPN pour télétravail et système de détection d'intrusion.</p>
+                            <p>Mettre en place un serveur de supervision Zabbix pour remonter les alertes (CPU, RAM, Disque, Réseau) et notifier les administrateurs en cas d'incident.</p>
                         </div>
                         
                         <div class="project-detail">
                             <h4><i class="fas fa-tools"></i> Travail réalisé</h4>
                             <ul>
-                                <li>Installation de pfSense sur serveur dédié</li>
-                                <li>Configuration des règles de pare-feu par zones</li>
-                                <li>Configuration Snort pour l'IDS</li>
+                                <li>Installation et configuration du serveur Zabbix sur Debian</li>
+                                <li>Déploiement des agents Zabbix sur les serveurs Windows et Linux à superviser.</li>
+                                <li>Création de templates personnalisés et configuration des déclencheurs (triggers) d'alerte.</li>
+                                <li>Configuration des notifications par mail en cas de seuil critique dépassé.</li>
                             </ul>
                         </div>
                         
                         <div class="project-detail">
                             <h4><i class="fas fa-laptop-code"></i> Technologies</h4>
-                            <p>pfSense, OpenVPN, Snort, VLAN, IPsec</p>
+                            <p>Zabbix Server, Agent Zabbix, SNMP, Linux (Debian), MariaDB</p>
                         </div>
                         
                         <div class="project-detail">
                             <h4><i class="fas fa-check-circle"></i> Compétences mobilisées</h4>
-                            <p>C2: Répondre aux incidents et aux demandes, C5: Organiser son développement professionnel</p>
+                            <p>C1: Gérer le patrimoine informatique, C2: Répondre aux incidents et aux demandes, C5: Organiser son développement professionnel</p>
                         </div>
                         
                         <div class="project-detail">
                             <h4><i class="fas fa-trophy"></i> Résultats</h4>
-                            <p>Le réseau de l'infra est totalement sécurisé.</p>
+                            <p>Infrastructure supervisée en temps réel avec un tableau de bord centralisé. Réactivité accrue face aux incidents grâce aux alertes automatiques.</p>
                         </div>
                         
                         <div class="project-detail">
                             <h4><i class="fas fa-lightbulb"></i> Bilan personnel</h4>
-                            <p>Projet enrichissant sur la cybersécurité. Difficulté initiale sur la configuration des certificats VPN.</p>
+                            <p>Projet essentiel pour comprendre la proactivité en administration système. Difficulté initiale sur la configuration fine des règles SNMP et des déclencheurs pour éviter les faux positifs.</p>
                         </div>
                     </div>
                 </div>
@@ -648,15 +649,15 @@
                 <div class="actualite-card">
                     <div class="actualite-header">
                         <span class="actualite-date"><i class="fas fa-calendar"></i> Septembre 2025</span>
-                        <span class="actualite-source">edcom</span>
+                        <span class="actualite-source">currentanalysis</span>
                     </div>
-                    <h4>Plus de 52 000 sites 5G en France : Free leader en antennes, Orange en performance</h4>
+                    <h4>5G Network Slicing Services Launch with Increasing Frequency</h4>
                     <p>
-                        Free Mobile conserve le plus grand nombre d'antennes mais utilise principalement la bande 700 MHz (moins rapide). 
-                        Orange domine sur la bande 3,5 GHz offrant les meilleurs débits
+                        Les opérateurs européens commercialisent le network slicing avec trois approches distinctes . Vodafone Germany propose des tranches réseau virtuelles avec garanties de débits (Campus Flex Exclusive à 2000€/mois), 
+                        T-Mobile US intègre le slicing dans SuperMobile avec optimisation dynamique en temps réel, et Deutsche Telekom déploie des services Mission-Critical basés sur les protocoles MCX du 3GPP pour les communications d'urgence. 
                     </p>
-                    <a href="https://www.edcom.fr/actualites/5g-free-a-le-plus-d-antennes-mais-orange-garde-l-avantage-sur-les-debits-observatoire-anfr-novembre-2025#:~:text=Smartphones-,5G%20%3A%20Free%20a%20le%20plus%20d'antennes%2C%20mais%20Orange,52%20000%20sites%205G%20autoris%C3%A9s." target="_blank" class="actualite-link">
-                        <i class="https://www.edcom.fr/actualites/5g-free-a-le-plus-d-antennes-mais-orange-garde-l-avantage-sur-les-debits-observatoire-anfr-novembre-2025#:~:text=Smartphones-,5G%20%3A%20Free%20a%20le%20plus%20d'antennes%2C%20mais%20Orange,52%20000%20sites%205G%20autoris%C3%A9s."></i> Lire l'article
+                    <a href="https://itcblogs.currentanalysis.com/2025/09/09/5g-network-slicing-services-launch-with-increasing-frequency-but-what-exactly-are-they-offering/" target="_blank" class="actualite-link">
+                        <i class="https://itcblogs.currentanalysis.com/2025/09/09/5g-network-slicing-services-launch-with-increasing-frequency-but-what-exactly-are-they-offering/"></i> Lire l'article
                     </a>
                 </div>
 
@@ -664,11 +665,12 @@
                 <div class="actualite-card">
                     <div class="actualite-header">
                         <span class="actualite-date"><i class="fas fa-calendar"></i> Octobre 2025</span>
-                        <span class="actualite-source">ARCEP</span>
+                        <span class="actualite-source">gsma</span>
                     </div>
-                    <h4>Observatoire ARCEP : la 5G poursuit son expansion vers l'objectif 2026</h4>
+                    <h4>La région MENA adopte la 5G autonome</h4>
                     <p>
-                        Les opérateurs maintiennent leur rythme pour atteindre l'objectif de couverture des deux tiers de la population en 2025, avec un focus particulier sur les zones peu denses et les territoires industriels.
+                        Selon GSMA, l’adoption de la 5G Standalone (SA) dans la région MENA est essentielle pour offrir des capacités avancées (faible latence, network slicing, sécurité) adaptées aux besoins des entreprises.
+                        Cette évolution pourrait générer jusqu’à 127 milliards de dollars de revenus supplémentaires pour les opérateurs d’ici 2030, représentant une part majeure de leur croissance future.
                     </p>
                     <a href="https://www.arcep.fr/cartes-et-donnees/nos-cartes/deploiement-5g/observatoire-du-deploiement-5g-decembre-2025.html" target="_blank" class="actualite-link">
                         <i class="https://www.arcep.fr/cartes-et-donnees/nos-cartes/deploiement-5g/observatoire-du-deploiement-5g-decembre-2025.html"></i> Lire l'article
@@ -727,14 +729,15 @@
                 <div class="actualite-card">
                     <div class="actualite-header">
                         <span class="actualite-date"><i class="fas fa-calendar"></i> Fevrier 2026</span>
-                        <span class="actualite-source">A Compléter</span>
+                        <span class="actualite-source">nxgconnect</span>
                     </div>
-                    <h4>A Compléter</h4>
+                    <h4>3GPP Release 18: 5G-Advanced RAN Features (RAN1 to RAN5)</h4>
                     <p>
-                        A Compléter
+                        3GPP Release 18 marque le début de la 5G-Advanced avec des améliorations majeures du RAN, notamment l’intégration de l’IA/ML, l’optimisation du MIMO et une meilleure efficacité spectrale.
+                        Les groupes RAN1 à RAN5 couvrent l’évolution de la couche physique, des protocoles, de l’architecture, des exigences RF et des tests de conformité.
                     </p>
-                    <a href="https://www.itforbusiness.fr/5-ans-plus-tard-la-5g-ne-fait-plus-rever-et-cest-peut-etre-une-bonne-nouvelle-95587" target="_blank" class="actualite-link">
-                        <i class="fas fa-external-link-alt"></i> Lire l'article
+                    <a href="https://www.nxgconnect.com/post/3gpp-release-18-5g-advanced-ran-features-ran1-to-ran5" target="_blank" class="actualite-link">
+                        <i class="https://www.nxgconnect.com/post/3gpp-release-18-5g-advanced-ran-features-ran1-to-ran5"></i> Lire l'article
                     </a>
                 </div>
             </div>
